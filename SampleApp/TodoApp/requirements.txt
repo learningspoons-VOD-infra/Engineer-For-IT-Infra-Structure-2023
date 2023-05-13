@@ -1,4 +1,3 @@
 fastapi
 uvicorn[standard]
 aiofiles
-pyodbc==4.0.34

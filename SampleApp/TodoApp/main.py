@@ -8,9 +8,6 @@ from typing import List
 import json
 import aiofiles
 
-from db import db_connection
-from model.models import DBConnection, Todo
-
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
