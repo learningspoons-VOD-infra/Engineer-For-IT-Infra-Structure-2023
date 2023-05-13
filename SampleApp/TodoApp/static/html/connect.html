@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title>Todo App</title>
+  <link href="static/css/mdb.min.css" rel="stylesheet">
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    nav.mb-4 {
+      margin-bottom: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Todo App</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/connect">Connect to DB</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div style="margin-top: 30px;"></div>
+    <form>
+      <div class="mb-3">
+        <label for="txtServerName" class="form-label">Server Name</label>
+        <input class="form-control" type="text" id="txtServerName">
+      </div>
+      <div class="mb-3">
+        <label for="txtAdmin" class="form-label">Server Admin</label>
+        <input type="text" class="form-control" id="txtAdmin">
+      </div>
+      <div class="mb-3">
+        <label for="txtPassword" class="form-label">Password</label>
+        <input type="password" class="form-control" id="txtPassword">
+      </div>
+      <button type="button" class="btn btn-primary" id="btnConnect">Connect</button>
+    </form>
+  </div>
+  <div id="result"></div>
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+  <script src="static/js/jquery-3.6.3.min.js"></script>
+  <script src="static/js/base.js"></script>
+</body>
+</html>
