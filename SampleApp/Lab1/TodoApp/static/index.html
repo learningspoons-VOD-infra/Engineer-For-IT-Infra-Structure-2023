@@ -2,7 +2,6 @@
 
 <head>
     <title>Todo App</title>
-    <link href="static/css/mdb.min.css" rel="stylesheet">
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
    
     <style>
@@ -40,15 +39,19 @@
               <div class="card" style="border-radius: 15px;">
                 <div class="card-body p-5">
        -->
-                  <div style="margin-top: 30px;"></div>
-      
-                  <form class="d-flex justify-content-center align-items-center mb-4">
-                    <div class="form-outline flex-fill">
-                      <input type="text" id="txtTodo" class="form-control form-control-lg" />
-                      <label class="form-label" for="txtTodo">What do you need to do today?</label>
-                    </div>
-                    <button type="button" class="btn btn-primary btn-lg ms-2" id="btnAdd">Add</button>
-                  </form>
+       <div style="margin-top: 30px;"></div>
+       <form class="row g-3">
+        <div class="mb-3">
+          <label for="txtTodo" class="form-label">What do you need to do today?</label>
+          <input type="text" class="form-control" id="txtTodo">  
+        </div>
+        <div class="col-12 text-end">
+          <button class="btn btn-outline-secondary" type="button" id="btnAdd">Add</button>
+        </div>
+        
+       </form>
+                  
+                  
       
                   <ul class="list-group mb-0" id="todoContainer">
                     <!-- Todo Content -->
