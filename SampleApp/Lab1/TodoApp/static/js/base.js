@@ -23,5 +23,7 @@ $(document).ready(function () {
                 <i class="fas fa-times text-primary"></i>\
                 </a>\
             </li>')
+
+            $('#txtTodo').val('')
     })
 });
