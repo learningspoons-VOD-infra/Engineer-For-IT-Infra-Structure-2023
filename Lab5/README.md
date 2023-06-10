@@ -34,7 +34,7 @@ Amazon Athena는 표준 [SQL](https://docs.aws.amazon.com/ko_kr/athena/latest/u
 3. Amazon S3에서 쿼리 결과 위치를 설정하기 위해 `설정 편집`를 선택합니다.
 4. 쿼리 결과의 위치를 `앞에서 생성한 S3 버킷`으로 설정 후 `저장` 버튼을 클릭합니다.
     
-    ![스크린샷 2023-06-06 오후 2.49.25.png](imags/image1.png)
+    ![스크린샷 2023-06-06 오후 2.49.25.png](images/image1.png)
     
 
 `편집기` 탭을 선택합니다.
@@ -48,7 +48,7 @@ Amazon Athena는 표준 [SQL](https://docs.aws.amazon.com/ko_kr/athena/latest/u
 
 1. 왼쪽의 데이터베이스 목록에서 `mydatabase`를 선택하면 현재 데이터베이스로 만들 수 있습니다.
     
-    ![스크린샷 2023-06-06 오후 6.13.27.png](imags/image2.png)
+    ![스크린샷 2023-06-06 오후 6.13.27.png](images/image2.png)
     
 
 ### 테이블 생성
@@ -121,9 +121,9 @@ Amazon S3의 데이터를 기반으로 Athena에서 생성한 `cloudfront_logs`
     
 2. 실행을 하면 다음과 같은 결과가 나타납니다.
     
-    ![스크린샷 2023-06-10 오후 1.51.09.png](imags/image3.png)
+    ![스크린샷 2023-06-10 오후 1.51.09.png](images/image3.png)
     
 
 ### 쿼리 결과 확인
 
-![스크린샷 2023-06-10 오후 1.52.20.png](imags/image4.png)
+![스크린샷 2023-06-10 오후 1.52.20.png](images/image4.png)
