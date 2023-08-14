@@ -118,8 +118,11 @@ commit을 완료한 뒤, 리포지토리에 push합니다.
 
 ![image-20230814233328145](images/image-20230814233328145.png)
 
+<<<<<<< HEAD
 +)Code Build 단계에서 사용하기 위하여 buildspec.yml을 공식 문서를 참고하여 어플리케이션 환경에 맞게 작성한 다음 리포지토리에 추가합니다. (https://docs.aws.amazon.com/ko_kr/codebuild/latest/userguide/build-spec-ref.html#build-spec-ref-syntax)
 
+=======
+>>>>>>> 3035795f7b18457b664afc1947ca7ffdb8904846
 
 
 ## 2. Code Build
